@@ -9,7 +9,7 @@ var CACHE_NAME = 'scanettePWA-v1';
 
 var contentToCache = [
     './index.html',
-    './scanettePWA.webmanifest',
+    './manifest.json',
     './style.css',
     './produits.csv',
     './js/app.js',
