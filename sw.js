@@ -1,5 +1,5 @@
 var cacheName = 'scanetteMaster-v1';
-var appShellFiles = [
+var contentToCache = [
     './index.html',
     './manifest.json',
     './favicon.ico',
@@ -19,13 +19,12 @@ var appShellFiles = [
     './js/exif.js',
     './js/job.js',
     './js/app.js',
+    './images/barcode-scanner.png',
+    './images/icon-cart.png',
+    './images/icon-setup.png',
+    './images/icon-transmit.png',
+    './images/logo.png'
 ];
-
-var gamesImages = [];
-for (var i = 0; i < games.length; i++) {
-    gamesImages.push('images/' + games[i].slug + '.png');
-}
-var contentToCache = appShellFiles.concat(gamesImages);
 
 self.addEventListener('install', (e) => {
     console.log('[Service Worker] Install');
