@@ -14,7 +14,6 @@ var contentToCache = [
     './icons/icon-192.png',
     './icons/icon-256.png',
     './icons/icon-512.png',
-    './js/app.js',
     './js/DecoderWorker.js',
     './js/exif.js',
     './js/job.js',
